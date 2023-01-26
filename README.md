@@ -5,7 +5,8 @@
 * Added condition function.
 * Created full pre-condition, process, post-condition composition working:
 
-    pre = condition(
+```python
+pre = condition(
         validator("arg must be positive", is_positive),
         validator("arg must not be zero", is_not_zero))
 
@@ -18,3 +19,4 @@
     c = (Compose(sqr_cmd).then(partial(post, _identity)))
 
     print(c(3))
+```
