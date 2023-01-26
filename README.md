@@ -6,7 +6,7 @@
 * Created full pre-condition, process, post-condition composition working:
 
 ```python
-pre = condition(
+    pre = condition(
         validator("arg must be positive", is_positive),
         validator("arg must not be zero", is_not_zero))
 
