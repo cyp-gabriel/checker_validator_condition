@@ -12,12 +12,9 @@ greaterThan = curry2(lambda lhs, rhs: lhs > rhs)
 lessThan = curry2(lambda lhs, rhs: lhs < rhs)
 
 try:
-    # pre-condition(s)
     pre = condition(
         validator("arg must be positive", is_positive),
         validator("arg must not be zero", is_not_zero))
-
-    #create_cmd = partial(pre, _identity)
 
     sqr_cmd = partial(pre, sqr)
 
