@@ -1,4 +1,4 @@
-## v1.0
+[![Contact me on Codementor](https://www.codementor.io/m-badges/boonecabal/find-me-on-cm-b.svg)](https://www.codementor.io/@boonecabal?refer=badge)
 
 ### main2.py, bc/tools.py
 
